@@ -8,8 +8,8 @@
 - [ ] Win32DiskImager 或 Diskimage
 - [ ] Notepad++
 
-###[阿文菌的安装教程](https://post.smzdm.com/p/ag82zdd3/)
-###[所需工具下载链接](https://pan.baidu.com/s/1ngx-yzYUPSGwhTMtO9I0ig) 提取码：0p7h
+[阿文菌的安装教程](https://post.smzdm.com/p/ag82zdd3/)
+* [所需工具下载链接](https://pan.baidu.com/s/1ngx-yzYUPSGwhTMtO9I0ig) 提取码：0p7h
 
 ## ①制作群晖引导U盘
 
@@ -40,25 +40,14 @@
 1. 开机,设置为U盘启动
 
 ## ③安装群晖系统
-
-> 安装方式
-
-```bash
-docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock --name prtainer-demo docker.io/portainer/portainer
-
-```
-
-- 访问地址：http://设备IP :9000
+1. 浏览器访问[find.synology.com](http://find.synology.com/)
+1. 搜索到NAS设备后进入安装界面,点 *设置*
+1. 用`手动安装`,点**浏览** 选择 `DS_3617xs_15284.pat`
+!> 注意! NAS中所有硬盘数据将删除!!
+1. 等待安装完成
 
 ## 疑难杂症
 
 > 安装方式
-
-```bash
-# 配置文件路径：~/homeassistant
-docker run -d --net="host" --name="ha" --restart=always --privileged=true -v ~/homeassistant:/config -p 8123:8123  -e TZ="Asia/Shanghai" homeassistant/home-assistant:latest
-
-```
-!> 可以自定义修改HomeAssistant配置文件的路径，“~”代表当前登录用户的根目录
 
 
