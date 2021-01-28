@@ -14,15 +14,19 @@
 ## ①制作群晖引导U盘
 
 > 安装方式 
-```ada
+```bash
 # 查看安装设备MAC地址,类似:
   00-1E-37-86-B7-AB
 # 查看U盘的设备ID,类似:
   VID = 0930 PID = 140A
+```
+```bash
 # 将ds3617_6.1.img刻录至U盘
   - 刻录前最好删除U盘所有分区并格式化
   - 用Win32DiskImager 或 Diskimage都行
   - 用Diskimage的话,在 Write Image to 下拉菜单中选择 Physical Disk开头的选项
+```
+```bash
 # 修改grub.cfg
   - 用DiskGenius分区工具查看U盘,找到ESP/grub/grub.cfg,右键复制到桌面
   - 用Notepad++打开grub.cfg,按照之前查到的设备 ID (U盘的)和 MAC 地址(NAS的)修改,保存
