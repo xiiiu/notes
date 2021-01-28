@@ -1,3 +1,7 @@
+-群晖
+
+ -[DS3617xs_6.1安装](synology_install_6_1.md)
+ 
 - 安装
 
   - [docker安装](install_docker.md)
