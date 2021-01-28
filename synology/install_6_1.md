@@ -8,7 +8,9 @@
 - [ ] Win32DiskImager 或 Diskimage
 - [ ] Notepad++
 ```
+- [ ] ok
 [阿文菌的安装教程](https://post.smzdm.com/p/ag82zdd3/)
+
 [所需工具下载链接](https://pan.baidu.com/s/1ngx-yzYUPSGwhTMtO9I0ig) 提取码：0p7h
 
 ## ①制作群晖引导U盘
