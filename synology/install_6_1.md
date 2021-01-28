@@ -9,7 +9,6 @@
 - [ ] Notepad++
 
 [阿文菌的安装教程](https://post.smzdm.com/p/ag82zdd3/)
-* [所需工具下载链接](https://pan.baidu.com/s/1ngx-yzYUPSGwhTMtO9I0ig) 提取码：0p7h
 
 ## ①制作群晖引导U盘
 
@@ -20,13 +19,13 @@
 # 查看U盘的设备ID,类似:
   VID = 0930 PID = 140A
 ```
-> 将ds3617_6.1.img刻录至U盘
+> 将`ds3617_6.1.img`刻录至U盘
 ```bash
   - 刻录前最好删除U盘所有分区并格式化
   - 用Win32DiskImager 或 Diskimage都行
   - 用Diskimage的话,在 Write Image to 下拉菜单中选择 Physical Disk开头的选项
 ```
-> 修改grub.cfg
+> 修改`grub.cfg`
 ```bash
   - 用DiskGenius分区工具查看U盘,找到ESP/grub/grub.cfg,右键复制到桌面
   - 用Notepad++打开grub.cfg,按照之前查到的设备 ID (U盘的)和 MAC 地址(NAS的)修改,保存
@@ -42,9 +41,10 @@
 ## ③安装群晖系统
 1. 浏览器访问[find.synology.com](http://find.synology.com/)
 1. 搜索到NAS设备后进入安装界面,点 *设置*
-1. 用`手动安装`,点**浏览** 选择 `DS_3617xs_15284.pat`
-!> 注意! NAS中所有硬盘数据将删除!!
-1. 等待安装完成
+1. 用`手动安装`,点*浏览* 选择 `DS_3617xs_15284.pat`
+
+!> 注意. NAS中所有硬盘数据将删除.
+> 等待安装完成
 
 ## 疑难杂症
 
