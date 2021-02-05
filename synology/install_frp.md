@@ -23,9 +23,9 @@
 
 ## ②用U盘启动
 ```shell
-[root@fozn]# cd /usr/local
-[root@fozn local]#  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
-[root@fozn local]# tar -zxvf frp_0.35.1_linux_amd64.tar.gz
+> cd /usr/local
+>  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
+> tar -zxvf frp_0.35.1_linux_amd64.tar.gz
 [root@fozn local]# mv frp_0.35.1_linux_amd64 frp
 [root@fozn local]# cd frp
 [root@fozn frp]# rm -rf frpc*
