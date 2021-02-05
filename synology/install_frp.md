@@ -11,21 +11,44 @@
 ## ①...
 
 > 记录以下数据,后面修改用 
-```bash
-# cd /usr/local
-# wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
-# tar -zxvf frp_0.35.1_linux_amd64.tar.gz
-# mv frp_0.35.1_linux_amd64 frp
-# cd frp
-# rm -rf frpc*
+```sh
+[root@fozn]# cd /usr/local
+[root@fozn local]#  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# tar -zxvf frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# mv frp_0.35.1_linux_amd64 frp
+[root@fozn local]# cd frp
+[root@fozn frp]# rm -rf frpc*
 ```
 > 将`ds3617_6.1.img`刻录至U盘
 
 ## ②用U盘启动
-
+```shell
+[root@fozn]# cd /usr/local
+[root@fozn local]#  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# tar -zxvf frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# mv frp_0.35.1_linux_amd64 frp
+[root@fozn local]# cd frp
+[root@fozn frp]# rm -rf frpc*
+```
 
 ## 疑难杂症
 
+```console
+[root@fozn]# cd /usr/local
+[root@fozn local]#  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# tar -zxvf frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# mv frp_0.35.1_linux_amd64 frp
+[root@fozn local]# cd frp
+[root@fozn frp]# rm -rf frpc*
+```
+
 > 安装方式
 
-
+```vb
+[root@fozn]# cd /usr/local
+[root@fozn local]#  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# tar -zxvf frp_0.35.1_linux_amd64.tar.gz
+[root@fozn local]# mv frp_0.35.1_linux_amd64 frp
+[root@fozn local]# cd frp
+[root@fozn frp]# rm -rf frpc*
+```
