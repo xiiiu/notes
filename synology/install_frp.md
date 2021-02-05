@@ -11,7 +11,7 @@
 ## ①...
 
 > 记录以下数据,后面修改用 
-```shell
+```bash
 # cd /usr/local
 # wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
 # tar -zxvf frp_0.35.1_linux_amd64.tar.gz
