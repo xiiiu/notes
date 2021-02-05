@@ -11,20 +11,22 @@
 ## ①...
 
 > 记录以下数据,后面修改用 
-```sh
-[root@fozn]# cd /usr/local
-[root@fozn local]#  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
-[root@fozn local]# tar -zxvf frp_0.35.1_linux_amd64.tar.gz
+```ksh
+> cd /usr/local
+> wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
+> tar -zxvf frp_0.35.1_linux_amd64.tar.gz
 [root@fozn local]# mv frp_0.35.1_linux_amd64 frp
 [root@fozn local]# cd frp
 [root@fozn frp]# rm -rf frpc*
+
+nohup ./frps -c ./frps.ini &
 ```
 > 将`ds3617_6.1.img`刻录至U盘
 
 ## ②用U盘启动
-```shell
+```shell-session
 > cd /usr/local
->  wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
+> wget https://github.com/fatedier/frp/releases/download/v0.35.1/frp_0.35.1_linux_amd64.tar.gz
 > tar -zxvf frp_0.35.1_linux_amd64.tar.gz
 [root@fozn local]# mv frp_0.35.1_linux_amd64 frp
 [root@fozn local]# cd frp
