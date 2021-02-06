@@ -1,6 +1,6 @@
 #配置ssl证书
 > 修改/etc/nginx/nginx.conf
-````conf
+```conf
     server {
         #listen       80 default_server;
         #listen       [::]:80 default_server;
@@ -29,4 +29,4 @@
         location = /50x.html {
         }
     }
-````
+```
