@@ -14,4 +14,8 @@
   - [技能设置](xiaoai/skills.md)
   - [服务器连接](xiaoai/server.md)
 
+- 其他
+
+  - [联通宽带光猫超级密码](opticalModem.md)
+
 
