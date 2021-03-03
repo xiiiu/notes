@@ -19,7 +19,7 @@ ln -s /volume1/@appstore/python38/bin/pip3.8 /usr/bin/pip3.8
 ```
 ## 阿里云上做DDNS
 [原贴](https://blog.csdn.net/qq_43626147/article/details/114196718)
-```python
+```Python
 sudo -i #转到root用户，否则群辉计划任务执行错误，找不到aliyun模块，原因好像是只能root任务执行
 pip3 install aliyun-python-sdk-core
 pip3 install aliyun-python-sdk-domain
@@ -38,7 +38,7 @@ regionID默认就行了，可以不改
 DomainName写入你的二级域名。比如我购买了fozn.com，这就是二级域名，在代码里写 “fozn.com” 。
 SubDomainList子域名就是的网址的前缀，一般是www
 
-```python
+```Python
 #!/usr/bin/env python3
 #coding=utf-8
  
