@@ -2,6 +2,7 @@
 
   - [DS3617xs_6.1安装](synology/install_6_1.md)
   - [frps安装](synology/install_frp.md)
+  - [记录](synology/record.md)
  
 - 服务器
 
@@ -17,5 +18,6 @@
 - 其他
 
   - [联通宽带光猫超级密码](opticalModem.md)
+  - [临时记录](temp.md)
 
 
