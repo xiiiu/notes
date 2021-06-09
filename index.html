@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <nav>
+    <a href="#/synology/record">群辉</a>
+    <a href="#/server/ssl">服务</a>
+  </nav>
+  <div id="app">loading...</div>
+  <script>
+    window.$docsify = {
+      name: '<span>xiiiu</span>', 
+      repo: 'https://gitee.com/xiiiu/notes',//会在页面右上角渲染一个 GitHub Corner 挂件
+      logo: 'img/tree_d.jpg',
+      loadSidebar: true,// 设置侧边栏
+      maxLevel:4,
+      subMaxLevel: 3,//侧边栏显示当前页面的目录(标题)
+      themeColor: '#6fb43f',
+      search: {
+        placeholder: '搜索', // 搜索提示框文字， 支持本地化，例子在下面
+        noData: '找不到结果!',
+        depth: 3,            // 搜索标题的最大程级, 1 - 6
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!--script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script-->
+  
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-vim.min.js"></script>
+</body>
+</html>
